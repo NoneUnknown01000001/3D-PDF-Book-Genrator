@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PDF 3D Book Complete</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <h2>PDF → Complete 3D Book</h2>
+
+    <input type="file" id="pdfInput" accept="application/pdf" />
+    <div class="book" id="book"></div>
+
+    <div class="controls">
+      <button onclick="prevPage()">⬅ Prev</button>
+      <button onclick="nextPage()">Next ➡</button>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
